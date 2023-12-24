@@ -1,0 +1,248 @@
+[
+    {
+        "id":1,
+        "name": "Kapı Süsü",
+        "measure": "40 cm",
+        "price": "299.9 TL" ,
+        "description": "3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
+        "stock": 6,
+        "starRate": 4.2,
+        "imgSource": "./images/kapısus3.jpg",
+        "type": "doorornament"
+}, 
+
+{
+    "id": 2,
+    "name": "Kapı Süsü",
+    "measure":"40 cm",
+    "price":"199.9 TL",
+    "description":"3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
+    "stock":6,
+    "starRate":4,
+    "imgSource":"./images/kapisus2.jpg",
+    "type":"doorornament"
+},
+{
+    "id":3,
+    "name":"Saat",
+    "measure":"50 cm",
+    "price":"500 TL",
+    "description":"50 cm capında cift kartlı pleksiden hazırlanan saatimiz",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/saat2.jpeg",
+    "type":"hour"
+},
+{
+    "id":4,
+    "name":"Saat",
+    "measure":"50 cm",
+    "price":"350 TL",
+    "description":"50 cm capında cift kartlı pleksiden hazırlanan saatimiz",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/saat1.jpeg",
+    "type":"hour"
+},
+{
+    "id":5,
+    "name":"Duvar Tablo",
+    "measure":"50 cm",
+    "price":"900 TL",
+    "description":"50 cm capında saat ve tablolr cift kat pleksiden imal edilmiştir",
+    "stock":2,
+    "starRate":5,
+    "imgSource":"./images/duvar3.jpg",
+    "type":"Wallaccessory"
+},
+
+{
+    "id":6,
+    "name":"Duvar Tablo",
+    "measure":"50 cm",
+    "price":"300Tl",
+    "description":"25 cm çapında 3lü pleksi duvar tablaoları Pleksi malzemeden üretilmiştir",
+    "stock":4,
+    "starRate":5,
+    "imgSource":"./images/duvar2.jpg",
+    "type":"Wallaccessory"
+},
+{
+    "id":7,
+    "name":"Cocuk odası",
+    "measure":"30 cm",
+    "price":"350 Tl",
+    "description":"3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
+    "stock":4,
+    "starRate":5,
+    "imgSource":"./images/cocuk4.jpg",
+    "type":"childrenroom"
+},
+{
+    "id":8,
+    "name":"Kumbara",
+    "measure":"27 cm",
+    "price":"25 TL",
+    "description":"Özel isim baskılı metal kumbara en az alım 20 adettir",
+    "stock":100,
+    "starRate":5,
+    "imgSource":"./images/kumbara1.jpg",
+    "type":"Moneybox"
+},
+{
+    "id":9,
+    "name":"Kumbara",
+    "measure":"27 cm",
+    "price":"25 TL",
+    "description":"Özel isim baskılı metal kumbara en az alım 20 adettir",
+    "stock":100,
+    "starRate":5,
+    "imgSource":"./images/kumbara2.jpg",
+    "type":"Moneybox"
+},
+{
+    "id":10,
+    "name":"Kuran",
+    "measure":"35 cm",
+    "price":"650 TL",
+    "description":"Kadife sandıklı Kişiye özel isimli 24 cm ortaboy Kuranı kerim setimiz içeriğinde tesbih ve ayrac mevcuttur",
+    "stock":4,
+    "starRate":5,
+    "imgSource":"./images/kuran2.jpg",
+    "type":"Koran"
+},
+{
+    "id":11,
+    "name":"Madalyon",
+    "measure":"6 cm",
+    "price":"15 TL",
+    "description":"Okuma Bayramı icin hazırlanan isme özel madalyonlar 6 cm boyundadır en az alım 20 adettir",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/karnehediyesi1.jpg",
+    "type":"gift"
+},
+{
+    "id":12,
+    "name":"Cetvel",
+    "measure":"20 cm",
+    "price":"20 TL",
+    "description":"Okuma Bayramı icin hazırlanan isme özel madalyonlar 6 cm boyundadır en az alım 20 adettir",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/karnehediyesi3.jpeg",
+    "type":"gift"
+},
+{
+    "id":13,
+    "name":"Cetvel",
+    "measure":"20 cm",
+    "price":"20 TL",
+    "description":"Okuma Bayramı icin hazırlanan isme özel cetvel 20 cm boyundadır en az alım 20 adettir",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/karnehediyesi2.jpg",
+    "type":"gift"
+},
+{
+    "id":14,
+    "name":"Bebek Odası",
+    "measure":"20 cm",
+    "price":"600 TL",
+    "description":"Isıklı isme özel Pano 40 cm boyundadır",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/cocukodasi2.jpg",
+    "type":"childrenroom"
+},
+{
+    "id":15,
+    "name":"Mumlar",
+    "measure":"10 cm",
+    "price":"20 TL",
+    "description":"Özel isimli cicekli mumlar",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/mum2.jpg",
+    "type":"candle"
+},
+{
+    "id":16,
+    "name":"Mumlar",
+    "measure":"10 cm",
+    "price":"20 TL",
+    "description":"Özel isimli cicekli mumlar",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/mum1.jpg",
+    "type":"candle"
+},
+{
+    "id":17,
+    "name":"Bebek Odası",
+    "measure":"30 cm",
+    "price":"250 TL",
+    "description":"Özel isimli cicekli mumlar",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/cocuk1.jpg",
+    "type":"baby"
+},
+{
+    "id":18,
+    "name":"Bebek Magnet",
+    "measure":"7 cm",
+    "price":"17 TL",
+    "description":"Özel isimli Diş bugdayı magneti ",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/bebek1.jpeg",
+    "type":"baby"
+},
+
+{
+    "id":19,
+    "name":"Kız İsteme Çikolatası",
+    "measure":"150 adet",
+    "price":"1 TL",
+    "description":"150 adet izme özel 1. sınıf kalite pelit marka cikolata",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/cikolata.jpeg",
+    "type":"chocolate"
+},
+{
+    "id":20,
+    "name":"Bebek Çikoltası",
+    "measure":"50 adet",
+    "price":"450 TL",
+    "description":"100 adet izme özel 1. sınıf kalite pelit marka cikolata",
+    "stock":3,
+    "starRate":5,
+    "imgSource":"./images/cikolata2.jpeg",
+    "type":"chocolate"
+},
+
+{
+    "id":21,
+    "name":"Bebek Magnet",
+    "measure":"7 cm",
+    "price":"17 TL",
+    "description":"Özel isimli hosageldin bebek magneti ",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/bebek3.jpeg",
+    "type":"baby"
+},
+{
+    "id":22,
+    "name":"Bebek Magnet",
+    "measure":"7 cm",
+    "price":"17 TL",
+    "description":"Özel isimli hosageldin bebek magneti ",
+    "stock":30,
+    "starRate":5,
+    "imgSource":"./images/bebek2.jpeg",
+    "type":"baby"
+}
+]
