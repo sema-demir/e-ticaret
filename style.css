@@ -14,7 +14,7 @@
 
 .navbar {
   height: 10px;
-  
+
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -26,6 +26,7 @@
 }
 
 .title {
+  margin-left: 10px;
   font-weight: bold;
   color: var(--pink);
   padding-bottom: 10px;
@@ -72,7 +73,7 @@
   display: none;
 }
 .slider {
-  width: 100%;
+  width: 80%;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -167,7 +168,7 @@
   font-size: 18px;
   font-weight: bold;
 }
-.filter li.active::before{
+.filter li.active::before {
   content: "";
   display: inline-block;
   width: 8px;
@@ -178,7 +179,7 @@
   left: -13px;
   top: 10px;
 }
-.basket-modal{
+.basket-modal {
   background-color: #5c6a7950;
   width: 100%;
   height: 100vh;
@@ -189,16 +190,14 @@
   opacity: 0;
   transition: all 250ms ease-in-out;
 }
-.basket-modal.active{
-opacity: 1;
-z-index: 999;
+.basket-modal.active {
+  opacity: 1;
+  z-index: 999;
 }
-.basket-modal.active 
-.basket-items{
-width: 450px;
-
+.basket-modal.active .basket-items {
+  width: 450px;
 }
-.basket-items{
+.basket-items {
   background-color: white;
   width: 0;
   float: right;
@@ -206,90 +205,75 @@ width: 450px;
   position: relative;
   transition: all 250ms ease-in-out;
 }
-.basket-items .bi-x{
+.basket-items .bi-x {
   position: absolute;
   left: 0;
   top: 0;
   font-size: 48px;
   cursor: pointer;
   color: var(--black);
-
 }
-.basket-title{
-   margin-top: 80px;
-   color: #1c2a39;
-   text-align: center;
-   font-weight: bold;
+.basket-title {
+  margin-top: 80px;
+  color: #1c2a39;
+  text-align: center;
+  font-weight: bold;
 }
-.basket-list{
+.basket-list {
   list-style: none;
   padding: 0 10px;
   margin-top: 48px;
   max-height: 700px;
   overflow-y: auto;
 }
-.basket-item{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 32px;
+.basket-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
 }
-.basket-item-info{
+.basket-item-info {
   width: 250px;
   padding-left: 10px;
 }
-.basket-item-info .book-name{
- font-size: 16px;
- font-weight: bold;
+.basket-item-info .book-name {
+  font-size: 16px;
+  font-weight: bold;
 }
-.basket-item-info .book-remove{
+.basket-item-info .book-remove {
   cursor: pointer;
   color: var(--black);
 }
-.basket-item-info .book-price{
+.basket-item-info .book-price {
   font-size: 16px;
 }
-.book-item .book-count{
+.book-item .book-count {
   font-size: 24px;
   color: var(--black);
   font-weight: bold;
 }
 .book-count .increase,
-.decrease{
+.decrease {
   cursor: pointer;
   color: var(--purple);
 }
 
-.basket-total{
-display: flex;
-flex-direction: column;
-position: absolute;
-bottom: 16px;
-width: inherit;
-align-items: center;
+.basket-total {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 16px;
+  width: inherit;
+  align-items: center;
 }
-.basket-total button{
+.basket-total button {
   width: 250px;
   margin-top: 5px;
   border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btnCheck {
+  display: none;
+}
 
 @media (max-width: 1250px) {
   .navbar {
@@ -333,8 +317,7 @@ align-items: center;
   .slider img {
     height: 500px;
   }
-  .book-card {
-  }
+ 
 }
 @media (max-width: 512px) {
   .slider img {

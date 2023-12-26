@@ -121,11 +121,19 @@ const filterBooks = (filterEl) => {
 const listBasketItems = () => {
   const basketListEl = document.querySelector(".basket-list");
   const basketCountEl = document.querySelector(".basket__count");
+  const totalQuantity = basketList.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
+  basketCountEl.innerHTML = totalQuantity > 0 ? totalQuantity : null;
+  const totalPriceEl = document.querySelector(".total-price");
+  console.log(totalPriceEl);
   basketCountEl.innerHTML = basketList.length > 0 ? basketList.length : null;
   let basketListHtml = "";
   let totalPrice = 0;
   basketList.forEach((item) => {
-    //console.log(item)
+    // console.log(item)
+    totalPrice += item.product.price * item.quantity;
     basketListHtml += `
     <li class="basket-item">
     <img src="${item.product.imgSource}"
@@ -145,8 +153,10 @@ const listBasketItems = () => {
   </li>
     `;
   });
-  basketListEl.innerHTML = basketListHtml;
-  //console.log(basketCountEl)
+  basketListEl.innerHTML = basketListHtml
+    ? basketListHtml
+    : `<li class="basket-item">Sepette Ürün Bulunmuyor</li>`;
+  totalPriceEl.innerHTML = totalPrice > 0 ? "Total:" + totalPrice + "TL" : null;
 };
 
 const addBookToBasket = (bookId) => {
@@ -167,7 +177,8 @@ const addBookToBasket = (bookId) => {
       //console.log(basketList)
     }
   }
-
+  const btnCheck = document.querySelector(".btnCheck");
+  btnCheck.style.display = "block";
   listBasketItems();
 };
 const removeItemBasket = (bookId) => {
@@ -179,6 +190,8 @@ const removeItemBasket = (bookId) => {
     //splice belirli sayıda ürün silmek için
     basketList.splice(findedIndex, 1);
   }
+  const btnCheck = document.querySelector(".btnCheck");
+  btnCheck.style.display = "none";
   listBasketItems();
 };
 
