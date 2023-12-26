@@ -224,6 +224,7 @@ const increaseItemToBasket = (bookId) => {
   listBasketItems();
 };
 
+
 setTimeout(() => {
   createBookItemsHtml();
   createBookTypesHtml();

@@ -7,7 +7,7 @@
         "description": "3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
         "stock": 6,
         "starRate": 4.2,
-        "imgSource": "./images/ka",
+        "imgSource": "./images/kapisus2.jpg",
         "type": "doorornament"
 }, 
 
@@ -19,7 +19,7 @@
     "description":"3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
     "stock":6,
     "starRate":4,
-    "imgSource":"./images/kapisus2.jpg",
+    "imgSource":"./images/kapisus3.jpeg",
     "type":"doorornament"
 },
 {
@@ -71,7 +71,7 @@
     "id":7,
     "name":"Cocuk odası",
     "measure":"30 cm",
-    "price":"350 Tl",
+    "price": 350,
     "description":"3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
     "stock":4,
     "starRate":5,
@@ -82,7 +82,7 @@
     "id":8,
     "name":"Kumbara",
     "measure":"27 cm",
-    "price":"25 TL",
+    "price": 25 ,
     "description":"Özel isim baskılı metal kumbara en az alım 20 adettir",
     "stock":100,
     "starRate":5,
@@ -93,7 +93,7 @@
     "id":9,
     "name":"Kumbara",
     "measure":"27 cm",
-    "price":"25 TL",
+    "price": 25,
     "description":"Özel isim baskılı metal kumbara en az alım 20 adettir",
     "stock":100,
     "starRate":5,
@@ -108,7 +108,7 @@
     "description":"Kadife sandıklı Kişiye özel isimli 24 cm ortaboy Kuranı kerim setimiz içeriğinde tesbih ve ayrac mevcuttur",
     "stock":4,
     "starRate":5,
-    "imgSource":"./images/kuran2.jpg",
+    "imgSource":"./images/kuran1.jpeg",
     "type":"Koran"
 },
 {
@@ -244,5 +244,27 @@
     "starRate":5,
     "imgSource":"./images/bebek2.jpeg",
     "type":"baby"
+},
+{
+    "id":21,
+    "name": "Kapı Süsü",
+    "measure": "40 cm",
+    "price": 299.9  ,
+    "description": "3mm kalıgında ahsap destekli 1mm pleksi kapı süsü",
+    "stock": 6,
+    "starRate": 4.2,
+    "imgSource": "./images/kapisusu4.jpeg",
+    "type": "doorornament"
+},
+{
+    "id":10,
+    "name":"Kuran",
+    "measure":"35 cm",
+    "price":650 ,
+    "description":"Kadife sandıklı Kişiye özel isimli 24 cm ortaboy Kuranı kerim setimiz içeriğinde tesbih ve ayrac mevcuttur",
+    "stock":4,
+    "starRate":5,
+    "imgSource":"./images/kuran2.jpeg",
+    "type":"Koran"
 }
 ]
