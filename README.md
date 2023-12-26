@@ -24,6 +24,11 @@ Bu proje, JavaScript, HTML5, CSS3 ve Bootstrap kullanılarak geliştirilmiş bir
 
 ## Katkılar
 
-Katkıda bulunmaktan çekinmeyin. Projeyi fork edip geliştirmelerinizi bize geri göndermekten çekinmeyin.
+Katkıda bulunmaktan çekinmeyin. Projeyi fork edip
+
+ geliştirmelerinizi bize geri göndermekten çekinmeyin.
+
+<h3>Ekran Görüntüsü</h3>
 
 
+![](eticaret.gif)

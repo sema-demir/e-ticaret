@@ -14,8 +14,7 @@
 
 .navbar {
   height: 10px;
-
-  display: flex;
+  display: fixed;
   width: 100%;
   justify-content: space-between;
   align-items: center;
